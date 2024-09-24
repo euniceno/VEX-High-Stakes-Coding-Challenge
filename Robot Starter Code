@@ -1,19 +1,24 @@
+//beginning
+pros::MotorGroup left_motors({1, 2, 3}); // left motors on ports 1, 2, 3
+pros::MotorGroup right_motors({4, 5, 6}); // right motors on ports 4, 5, 6
+
 // left motor group
-pros::MotorGroup left_motor_group({-1, 2, -3}, pros::MotorGears::blue);
+pros::MotorGroup left_motors({-1, 2, -3}); // left motors on ports 1 (reversed), 2 (forwards), and 3 (reversed)
 // right motor group
-pros::MotorGroup right_motor_group({4, -5, 6}, pros::MotorGears::green);
+pros::MotorGroup right_motors({4, -5, 6}); // right motors on ports 4 (forwards), 5 (reversed), and 6 (forwards)
 
 // drivetrain settings
+
 lemlib::Drivetrain drivetrain(&left_motor_group, // left motor group
                               &right_motor_group, // right motor group
-                              10, // 10 inch track width
+                              7, // 7 inch track width
                               lemlib::Omniwheel::NEW_4, // using new 4" omnis
                               360, // drivetrain rpm is 360
                               2 // horizontal drift is 2 (for now)
 );
 
 // imu
-pros::Imu imu(10);
+pros::Imu imu(8);
 // horizontal tracking wheel encoder
 pros::Rotation horizontal_encoder(20);
 // vertical tracking wheel encoder

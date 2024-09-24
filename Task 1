@@ -1,3 +1,7 @@
+Use the LemLib Documentation (2 - Configuration) along with the provided starter code to complete this task 
+Documentation: https://lemlib.readthedocs.io/en/stable/tutorials/2_configuration.html
+
+
 Construct a working piece of code for a VEX Robot with the following parameters:
 6 motor drivetrain with:
 - Right-side motors on ports 1, 2, and 3 (motor 3 reversed)
@@ -9,8 +13,6 @@ The Robot should:
 1. Possess the ability to drive using input from the joysticks on the VEX Controller
 2. Possess the ability to spin the robot's roller both ways using the buttons "L1" and "L2"
 
-Use the LemLib Documentation (2 - Configuration) along with the provided starter code to complete this task 
-Documentation: https://lemlib.readthedocs.io/en/stable/tutorials/2_configuration.html
 
 Once you have completed this task:
 - Click "Commit changes..."
@@ -18,5 +20,4 @@ Once you have completed this task:
 - Click "Create a new branch" 
 - Click "Propose changes"
 
-If you have any questions regarding the task, feel free to ask.
-Good Luck!
+

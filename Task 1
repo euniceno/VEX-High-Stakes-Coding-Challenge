@@ -1,4 +1,4 @@
-Use the LemLib Documentation (2 - Configuration) along with the provided starter code to complete this task 
+Use the LemLib Documentation ("2 - Configuration" and "3 - Driver Control") along with the provided starter code to complete this task 
 Documentation: https://lemlib.readthedocs.io/en/stable/tutorials/2_configuration.html
 
 
@@ -10,7 +10,7 @@ Roller motor on port 7
 Inertial Sensor (IMU) on port 8
 
 The Robot should:
-1. Possess the ability to drive using input from the joysticks on the VEX Controller
+1. Possess the ability to move around using input from the left and right joysticks on the VEX Controller
 2. Possess the ability to spin the robot's roller both ways using the buttons "L1" and "L2"
 
 

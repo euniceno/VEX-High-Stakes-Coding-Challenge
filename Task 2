@@ -1,0 +1,15 @@
+Use the LemLib Documentation ("5 - Angular Motions" and "6 - Lateral Motion") along with your starter code to complete this task 
+For this task, you can continue using the starter code that you used to complete task 1.
+Documentation: https://lemlib.readthedocs.io/en/stable/tutorials/5_angular_motion.html
+
+
+Construct a working piece of autonomous code for a VEX Robot that scores points.
+Your robot can start in any corner of the field.
+As a reminder, points are scored by placing rings onto goals.
+
+
+Once you have completed this task:
+- Click "Commit changes..."
+- Type your name and student ID in the text field titled "Extended Description" 
+- Click "Create a new branch" 
+- Click "Propose changes"
